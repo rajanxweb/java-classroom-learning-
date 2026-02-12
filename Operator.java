@@ -1,5 +1,5 @@
 public class Operator{
-    public static void main(String[] args){
+    public static void main(LearnString[] args){
         int num1 = 10;
         int num2 = 20;
         int num3;

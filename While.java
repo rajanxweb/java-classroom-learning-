@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class While {
-    static public void main(String[] args){
+    static public void main(LearnString[] args){
         // Scanner sc = new Scanner(System.in);
         // int i = sc.nextInt();
 
@@ -27,8 +27,8 @@ public class While {
         //     System.out.println(j);
         // }
 
-        String cityName[] = {"Mumbai", "Pune", "Hydrabad", "Goal", "Varanshi"};
-        for(String i:cityName)
+        LearnString cityName[] = {"Mumbai", "Pune", "Hydrabad", "Goal", "Varanshi"};
+        for(LearnString i:cityName)
             {
             System.out.println(i);
         }

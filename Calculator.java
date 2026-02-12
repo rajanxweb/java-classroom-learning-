@@ -2,7 +2,7 @@
 // Use this editor to write, compile and run your Java code online
 import java.util.Scanner;
 class Main {
-    public static void main(String[] args) {
+    public static void main(LearnString[] args) {
         Scanner s = new Scanner(System.in);
         char st = s.next().charAt(0);
         double n1 = s.nextDouble();
