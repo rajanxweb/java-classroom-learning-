@@ -1,4 +1,5 @@
 // let's learn methods 
+
 class Test{
     int a,b;
     void input(){
