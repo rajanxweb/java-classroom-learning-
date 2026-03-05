@@ -2,7 +2,7 @@ public class StringBufferDemo {
     public static void main(String[] args)
     {
         // using StringBuffer, checking length , and checking capacity.
-        StringBuffer sb = new StringBuffer("java");
+        StringBuffer sb = new StringBuffer("amma");
         System.out.println(sb);
         System.out.println(sb.length());
         System.out.println(sb.capacity());
@@ -33,5 +33,40 @@ public class StringBufferDemo {
         // replace
         sb.replace(6,10,"TTTT");
         System.out.println(sb);
+
+        // delete
+        sb.delete(6,10);
+        System.out.println(sb);
+
+        // delete charAt
+
+        sb.deleteCharAt(0);
+        sb.deleteCharAt(0);
+        System.out.println(sb);
+
+        // reverse
+
+        System.out.println(sb.reverse());
+        sb.setCharAt(1,'u');
+        System.out.println(sb);
+
+        // charAt
+
+        System.out.println(sb.charAt(0));
+
+        // substring
+
+        sb.append("Programming");
+        System.out.println(sb.substring(3,9));
+
+        // isEmpty
+
+        System.out.println(sb.isEmpty());
+
+
+
+        
+
+
     }
 }
